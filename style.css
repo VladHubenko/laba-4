@@ -1,0 +1,145 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(46, 45, 45);
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 5px 10px rgb(47, 46, 46);
+    
+    }
+    header .logo {
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(78, 72, 72);
+    transition: .5s ;
+    }
+    header .logo:hover {
+    transform: scale(1.2);
+    
+    }
+    header nav ul li {
+    position: relative;
+    float: left;
+    text-align: center;
+    }
+    header nav ul li a {
+    padding: 15px ;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    display: block;
+    
+    }
+    header nav ul li a:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(194, 192, 192);
+    
+    }
+    nav ul li ul {
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: rgb(77, 74, 74);
+    display: none;
+    }
+    nav ul li ul li {
+    width: 100%;
+    border: 1px solid rgba(43, 41, 41, 0.1) ;
+    }
+    nav ul li ul li ul {
+    left: 180px;
+    top:
+    0;
+    }
+    nav ul li:hover > ul{
+    display: initial;
+    }
+    html {
+    scroll-behavior: smooth;
+    }
+    #logo {
+        display: inline-block;
+    }
+
+
+
+   
+#search {
+    display: inline-block;
+    
+    margin-right: 20px;
+}
+
+#search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+#search button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+.slider-container {
+    position: relative;
+    height: 920px;
+    width: 200px; 
+    overflow: hidden;
+    margin: 130px 20px 20px auto ;
+    border: 2px solid #333;
+    border-radius: 50px;
+    padding: 5px;
+    transition: transform 0.3s;
+    background-color: #fff;
+
+  }
+  .slider-container:hover{
+    transform: scale(1.05);
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%; 
+    overflow: hidden;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+  .top{
+    font-size: 20px;
+  }
+
+
+
+
+  
+
+
+
+  
+  
+  
+
+    
+       
+    
+        
+
